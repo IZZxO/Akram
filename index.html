@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي الشخصي - أكرم</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- هيدر -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-600">أكرم</h1>
+      <nav class="space-x-4 space-x-reverse">
+        <a href="#about" class="hover:text-blue-600">من أنا</a>
+        <a href="#services" class="hover:text-blue-600">الخدمات</a>
+        <a href="#contact" class="hover:text-blue-600">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- قسم التعريف -->
+  <section id="about" class="text-center py-16">
+    <h2 class="text-3xl font-bold mb-4">مرحباً، أنا أكرم</h2>
+    <p class="max-w-xl mx-auto text-lg text-gray-600">
+      مصمم ومطور مواقع محترف، أعمل على إنشاء مواقع عصرية واحترافية تساعدك على النجاح في أعمالك.
+    </p>
+  </section>
+
+  <!-- قسم الخدمات -->
+  <section id="services" class="bg-white py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">الخدمات</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">تصميم مواقع</h3>
+          <p>تصميم عصري ومتجاوب يناسب جميع الأجهزة.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">برمجة مواقع</h3>
+          <p>برمجة احترافية باستخدام أحدث التقنيات.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">تحسين الأداء</h3>
+          <p>تسريع وتحسين أداء موقعك ليكون في أفضل حالة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم التواصل -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">تواصل معي</h2>
+      <form action="https://formspree.io/f/xvgqygbq" method="POST" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow space-y-4">
+        <input type="text" name="name" placeholder="الاسم" required class="w-full p-3 border rounded">
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required class="w-full p-3 border rounded">
+        <textarea name="message" placeholder="رسالتك" required class="w-full p-3 border rounded"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="bg-gray-800 text-white text-center p-4">
+    © 2025 جميع الحقوق محفوظة - أكرم
+  </footer>
+
+</body>
+</html>
+
+
+
